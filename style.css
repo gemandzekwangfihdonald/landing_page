@@ -157,3 +157,22 @@ img{  /* selector that sets a predefined width for all our images*/
     color: #F9FAF8;
 }
 
+.call, button{
+    background-color: #3882f6;
+}
+
+.randominfo h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.thorquote {
+    background-color: #E5E7EB;
+}
+
+.thorquote0 {
+    font-size: 36px;
+    color: #1F2937;
+    
+}
