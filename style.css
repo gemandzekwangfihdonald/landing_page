@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: soli rgb(197, 191, 191) 1px;
+    border: solid rgb(197, 191, 191) 1px;
 }
 
 
@@ -18,6 +18,12 @@
 
 .headerlogo{
     flex: 3;
+}
+.headerlogo0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
