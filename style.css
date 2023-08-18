@@ -7,7 +7,7 @@
 
 
 
-.container {  /* general parent which has all the subsections within it */
+.container {  /* general parent which has all the sections within it */
     display: flex;
     flex-direction: column;
     display: flex;
@@ -16,29 +16,48 @@
     padding: 100px;
 }
 
-.headerlogo{
+
+
+.headerlogo{  /*parent or container of header section*/
     flex: 3;
+    padding: 0 100px 50px 100px;
 }
+
 .headerlogo0{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: ;
+    padding: 30px 10%;
 }
-.headerlogo02 li{
-    display: inline-block;
-}
+
 .headerlogo01, .headerlogo02 {
     flex: 1;
 }
 
+.headerlogo02 li{  /*selector targets all individual list items of thi sclass*/
+    display: inline-block; /* this enables our links in the header to appear on one line rather than on three seperate lines*/
+    padding: 0px 20px;  /*adds a 20px padding to the l.h.s and r.h.s of each individual list item*/
+}
+
+
 .headerlogo03 {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerlogo04 {
+    width: 120px;
+    height: auto;
 }
 .headerlogo04, .headerlogo05{
     flex: 1;
+}
+.headerlogo05 {
+    justify-content: center;
+    align-items: center;
 }
 
 
