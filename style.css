@@ -17,7 +17,10 @@
 
 
 
-.randominfo h1 {
+.randominfo h1 {    /* specifically selects the h1 element of the .ranom info class*/
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
     text-align: center;
 }
 
@@ -28,12 +31,12 @@
     
 }
 
-.randominfo {
+.randominfo { /* general simple div that brackets section*/
     margin: 10px;
     padding: 10px;
 }
 
-.randominfo0{
+.randominfo0{   /*  cdlass or div that brackets all our images ie this is our flexbox container*/
     margin: 10px;
     padding: 10px;
     display: flex;
@@ -47,7 +50,7 @@ img{
  width:100px
 }
 
-.randominfo1 .randominfo2 .randominfo3 .randominfo4 {
+.randominfo1 .randominfo2 .randominfo3 .randominfo4 {  /* sets each child of the container random info to flex:1*/
     flex: 1;
   
 }
