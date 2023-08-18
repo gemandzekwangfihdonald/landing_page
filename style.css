@@ -137,4 +137,23 @@ img{  /* selector that sets a predefined width for all our images*/
 
 
 
+.copyright, .headerlogo {
+    background-color: #1F2937;
+}
+
+.headerlogo06 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.headerlogo02, .headerlogo07 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerlogo01 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
