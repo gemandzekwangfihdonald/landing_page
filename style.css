@@ -5,6 +5,10 @@
     border: solid rgb(197, 191, 191) 1px;
 }
 
+button { /* selector selects all the butttons*/
+    border-radius: 5px;
+    padding: 5px;
+}
 
 
 .container {  /* general parent which has all the sections within it */
@@ -130,10 +134,7 @@ img{  /* selector that sets a predefined width for all our images*/
     flex: 1;
 }
 
- button { /* selector selects all the butttons*/
-    border-radius: 5px;
-    padding: 5px;
-}
+
 
 
 
