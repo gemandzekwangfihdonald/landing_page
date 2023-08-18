@@ -24,9 +24,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: ;
 }
 .headerlogo02 li{
     display: inline-block;
+}
+.headerlogo01, .headerlogo02 {
+    flex: 1;
 }
 
 
