@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: soli rgb(197, 191, 191) 1px;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerlogo{
+
+}
+
+
+
+.randominfo h1 {
+    text-align: center;
+}
+
+.randominfo figcaption{  /* targets the image's caption to justify it below the image */
+    height: 100px;
+    width: 125px;
+    text-align: center;
+    
+}
+
+.randominfo {
+    margin: 10px;
+    padding: 10px;
+}
+
+.randominfo0{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+ height: auto;
+ width:100px
+}
+
+.randominfo1 .randominfo2 .randominfo3 .randominfo4 {
+    flex: 1;
+  
+}
+
+
+
+.thorquote{
+
+}
+
+.call{
+
+}
