@@ -6,13 +6,18 @@
 }
 
 
-.container1 {
+
+.container {  /* general parent which has all the subsections within it */
     display: flex;
     flex-direction: column;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 100px;
 }
 
 .headerlogo{
-
+    flex: 3;
 }
 
 
@@ -34,6 +39,7 @@
 .randominfo { /* general simple div that brackets section*/
     margin: 10px;
     padding: 10px;
+    flex: 3;
 }
 
 .randominfo0{   /*  cdlass or div that brackets all our images ie this is our flexbox container*/
@@ -45,7 +51,7 @@
     align-items: center;
 }
 
-img{
+img{  /* selector that sets a predefined width for all our images*/
  height: auto;
  width:100px
 }
@@ -58,9 +64,37 @@ img{
 
 
 .thorquote{
-
+ flex: 2;
 }
 
-.call{
-
+.thorquote0 {
+ padding: 30px;
+ text-align: justify;
 }
+.thorquote1 {  /* this selector selects the footer and sets it to the appropriate position ie at the buttom end of this section*/
+ text-align: end;
+}
+
+
+.call {
+ flex: 1;
+}
+
+.call0 {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  gap: 20px;
+}
+
+.call2 .call1 { /* selector sets our two flex id=tems of the call0 class parent to flex:1 to enable responsivness of these elements on the browser. i.e when the browser screen is increased or decreased our content wld increase or decrease appropriately to occupy the space present*/
+    flex: 1;
+}
+
+.call2 button { /* selector selects the button of the style section*/
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
