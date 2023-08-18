@@ -41,9 +41,9 @@
 }
 
 
-.headerlogo03 {
+.headerlogo03 { /* second subsection of header section*/
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /*displays items in row and makes the image appear second in the row*/
     justify-content: center;
     align-items: center;
 }
@@ -96,9 +96,8 @@ img{  /* selector that sets a predefined width for all our images*/
  width:100px
 }
 
-.randominfo1 .randominfo2 .randominfo3 .randominfo4 {  /* sets each child of the container random info to flex:1*/
+.randominfo1, .randominfo2, .randominfo3, .randominfo4 {  /* sets each child of the container random info to flex:1*/
     flex: 1;
-  
 }
 
 
@@ -131,7 +130,7 @@ img{  /* selector that sets a predefined width for all our images*/
     flex: 1;
 }
 
-.call2 button { /* selector selects the button of the style section*/
+ button { /* selector selects all the butttons*/
     border-radius: 5px;
     padding: 5px;
 }
