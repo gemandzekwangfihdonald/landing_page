@@ -33,6 +33,11 @@
     flex: 1;
 }
 
+.headerlogo03 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 
 
 .randominfo h1 {    /* specifically selects the h1 element of the .ranom info class*/
