@@ -2,8 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: solid rgb(197, 191, 191) 1px;
+   /* border: solid rgb(197, 191, 191) 1px; */
 }
+
 
 button { /* selector selects all the butttons*/
     border-radius: 5px;
@@ -14,7 +15,6 @@ button { /* selector selects all the butttons*/
 .container {  /* general parent which has all the sections within it */
     display: flex;
     flex-direction: column;
-    display: flex;
     justify-items: center;
     align-items: center;
     padding: 100px;
@@ -23,7 +23,7 @@ button { /* selector selects all the butttons*/
 
 
 .headerlogo{  /*parent or container of header section*/
-    flex: 3;
+    flex: 1;
     padding: 0 100px 50px 100px;
 }
 
@@ -53,8 +53,8 @@ button { /* selector selects all the butttons*/
 }
 
 .headerlogo04 {
-    width: 120px;
-    height: auto;
+    /*width: 120px;
+    height: auto;*/
 }
 .headerlogo04, .headerlogo05{
     flex: 1;
@@ -83,7 +83,13 @@ button { /* selector selects all the butttons*/
 .randominfo { /* general simple div that brackets section*/
     margin: 10px;
     padding: 10px;
-    flex: 3;
+    flex: 1;
+}
+
+.randominfo00 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .randominfo0{   /*  cdlass or div that brackets all our images ie this is our flexbox container*/
@@ -93,18 +99,25 @@ button { /* selector selects all the butttons*/
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
 }
 
-img{  /* selector that sets a predefined width for all our images*/
- height: auto;
+/* img{  /* selector that sets a predefined width for all our images*/
+/* height: auto;
  width:100px
-}
+} */
 
 .randominfo1, .randominfo2, .randominfo3, .randominfo4 {  /* sets each child of the container random info to flex:1*/
     flex: 1;
+    width: 100%;
+    height: auto;
 }
 
-
+.randominfo{
+    border: solid gray;
+}    /*remove this code block*/
 
 .thorquote{
  flex: 2;
@@ -134,6 +147,9 @@ img{  /* selector that sets a predefined width for all our images*/
     flex: 1;
 }
 
+.copyright {
+    flex: 3;
+}
 
 
 
@@ -174,5 +190,7 @@ img{  /* selector that sets a predefined width for all our images*/
 .thorquote0 {
     font-size: 36px;
     color: #1F2937;
-    
+    font-style: italic;
+    font: lighter;
+
 }
