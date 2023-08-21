@@ -5,6 +5,9 @@
    /* border: solid rgb(197, 191, 191) 1px; */
 }
 
+body{
+    background-color: antiquewhite;
+}
 
 button { /* selector selects all the butttons*/
     border-radius: 5px;
@@ -105,7 +108,7 @@ button { /* selector selects all the butttons*/
 
 .randominfo0 img {   /*specific target*/
     width: 200px; /*tip/ to get the best suitable width of an element, obtain it from the inspector*/
-    height: 100px; /* same as above for the height*/
+    height: auto; /* same as above for the height*/
     padding: 10px;
 }
 
@@ -132,6 +135,7 @@ button { /* selector selects all the butttons*/
 
 .call {
  flex: 1;
+ padding: 50px 100px;
 }
 
 .call0 {
@@ -171,7 +175,7 @@ button { /* selector selects all the butttons*/
     color: #F9FAF8;
 }
 
-.call, button{
+.call0, button{
     background-color: #3882f6;
 }
 
