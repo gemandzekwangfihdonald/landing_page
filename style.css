@@ -77,6 +77,8 @@ button { /* selector selects all the butttons*/
     height: 100px;
     width: 125px;
     text-align: center;
+    position: relative;
+    left: 37px;
     
 }
 
@@ -101,7 +103,7 @@ button { /* selector selects all the butttons*/
     align-items: center; /* justifies content along the horizontal axis.*/
 }
 
-.randominfo0 img {
+.randominfo0 img {   /*specific target*/
     width: 200px; /*tip/ to get the best suitable width of an element, obtain it from the inspector*/
     height: 100px; /* same as above for the height*/
     padding: 10px;
