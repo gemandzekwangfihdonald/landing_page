@@ -92,22 +92,25 @@ button { /* selector selects all the butttons*/
     align-items: center;
 }
 
-.randominfo0{   /*  cdlass or div that brackets all our images ie this is our flexbox container*/
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
-    width: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* img{  /* selector that sets a predefined width for all our images*/
-/* height: auto;
- width:100px
-} */
+.randominfo0 {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
 
 .randominfo1, .randominfo2, .randominfo3, .randominfo4 {  /* sets each child of the container random info to flex:1*/
     flex: 1;
@@ -115,9 +118,7 @@ button { /* selector selects all the butttons*/
     height: auto;
 }
 
-.randominfo{
-    border: solid gray;
-}    /*remove this code block*/
+
 
 .thorquote{
  flex: 2;
