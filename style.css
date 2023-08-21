@@ -92,18 +92,19 @@ button { /* selector selects all the butttons*/
     align-items: center;
 }
 
-.randominfo0 {
-    max-width: 1200px;
-    width: 100%;
+.randominfo0 {  /*class that contains all our images*/
+    max-width: 1200px; /* this sets the max width of the parent of our images to 1200px*/
+    width: 100%;  /* setting width to 100 percent, our flex  items would fill all the availaible space in the parent*/
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;   /* this enables our flex items display on a new line when the width of the display screen is smaller than the normal width of the container*/
+    justify-content: center; /*justifies content along the main axis*/
+    align-items: center; /* justifies content along the horizontal axis.*/
 }
 
-img {
-    width: 200px;
-    height: 100px;
+.randominfo0 img {
+    width: 200px; /*tip/ to get the best suitable width of an element, obtain it from the inspector*/
+    height: 100px; /* same as above for the height*/
+    padding: 10px;
 }
 
 .randominfo1, .randominfo2, .randominfo3, .randominfo4 {  /* sets each child of the container random info to flex:1*/
