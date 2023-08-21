@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: #030302;
 }
 
 button { /* selector selects all the butttons*/
@@ -89,6 +89,8 @@ button { /* selector selects all the butttons*/
     margin: 10px;
     padding: 10px;
     flex: 1;
+    background-color: rgb(202, 200, 200);
+    
 }
 
 .randominfo00 {
@@ -136,6 +138,7 @@ button { /* selector selects all the butttons*/
 .call {
  flex: 1;
  padding: 50px 100px;
+ background-color: rgb(202, 200, 200);
 }
 
 .call0 {
@@ -151,6 +154,7 @@ button { /* selector selects all the butttons*/
 
 .copyright {
     flex: 3;
+    color: #F9FAF8;
 }
 
 
